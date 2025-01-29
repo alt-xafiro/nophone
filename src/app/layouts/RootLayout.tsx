@@ -10,12 +10,13 @@ export function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="h-full min-h-full">
+    <html lang="en" className="h-full min-h-full scroll-smooth">
       <body
         className={clsx(
-          spaceGrotesk.className,
           'h-full min-h-full w-full min-w-[375px]',
-          'break-words bg-black text-white'
+          'bg-white',
+          spaceGrotesk.className,
+          'break-wordstext-[22px] text-black'
         )}
       >
         {children}
