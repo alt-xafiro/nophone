@@ -1,5 +1,5 @@
 import { Features } from './Features';
-import { Footer } from './Footers';
+import { Footer } from './Footer';
 import { Header } from './Header';
 import { Hero } from './Hero';
 import { Nophone } from './Nophone';
