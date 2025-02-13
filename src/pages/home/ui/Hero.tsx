@@ -10,7 +10,7 @@ export function Hero({ className }: HeroProps) {
     <div
       className={clsx(
         className,
-        'relative flex justify-center bg-white text-black mix-blend-exclusion'
+        'relative flex transform-gpu justify-center bg-white text-black mix-blend-exclusion'
       )}
     >
       <div className="relative flex h-screen max-h-[1400px] min-h-[400px] w-full max-w-[1120px] flex-col items-center justify-center pl-[20px] pr-[20px]">
