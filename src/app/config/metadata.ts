@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://nophone.xafiro.site'),
+  metadataBase: new URL('https://nophone.vercel.app'),
   title: 'Nophone',
   description: 'A new era of communication.',
   authors: [
@@ -25,16 +25,16 @@ export const metadata: Metadata = {
   manifest: '/manifest.webmanifest',
   openGraph: {
     siteName: 'Nophone',
-    url: 'https://nophone.xafiro.site',
+    url: 'https://nophone.vercel.app',
     images: [
       {
-        url: 'https://nophone.xafiro.site/opengraph-image.png',
+        url: 'https://nophone.vercel.app/opengraph-image.png',
         width: 1200,
         height: 630
       }
     ]
   },
   twitter: {
-    images: ['https://nophone.xafiro.site/opengraph-image.png']
+    images: ['https://nophone.vercel.app/opengraph-image.png']
   }
 };
